@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="@dimen/dimen_common_spacing_07"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/bookname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:drawableLeft="@drawable/search"
+        android:drawablePadding="@dimen/dimen_common_spacing_10"
+        android:padding="@dimen/dimen_common_spacing_10"
+        android:background="@drawable/customedittext"
+        android:hint="Enter Book Name"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_blue_light"
+        android:text="Serch"
+        android:layout_marginTop="@dimen/dimen_common_spacing_10"
+        android:textColor="@color/color_white" />
+
+
+    <LinearLayout
+        android:id="@+id/library_search_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bookPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="FIND OUT WHERE YOUR BOOK IS LOCATED IN LIBRARY DEPARTMENT"
+            android:textColor="@color/color_blue_light" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_silver"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/stud_name"
+            style="@style/style_edittext_common"
+            android:layout_margin="@dimen/dimen_common_spacing_10"
+            android:drawableLeft="@drawable/student"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/emailid"
+            style="@style/style_edittext_common"
+            android:layout_margin="@dimen/dimen_common_spacing_10"
+            android:drawableLeft="@drawable/emailid"
+            android:hint="Email id"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            style="@style/style_edittext_common"
+            android:layout_margin="@dimen/dimen_common_spacing_10"
+            android:drawableLeft="@drawable/phone"
+            android:hint="Contact Number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/city"
+            style="@style/style_edittext_common"
+            android:layout_margin="@dimen/dimen_common_spacing_10"
+            android:drawableLeft="@drawable/city"
+            android:hint="City"
+            android:inputType="text" />
+
+        <Spinner
+            android:id="@+id/branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_common_spacing_10"
+            android:background="@drawable/bachgroud_text"
+            android:entries="@array/Courses_name"
+            android:padding="@dimen/dimen_common_spacing_10" />
+
+        <EditText
+            android:id="@+id/queryMessage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_common_spacing_150"
+            android:layout_margin="@dimen/dimen_common_spacing_10"
+            android:background="@drawable/bachgroud_text"
+            android:gravity="top"
+            android:hint="Write Your Message if You have any query"
+            android:maxLines="5"
+            android:padding="@dimen/dimen_common_spacing_10" />
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/btnSUbmit"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginBottom="48dp"
+            android:text="Submit"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

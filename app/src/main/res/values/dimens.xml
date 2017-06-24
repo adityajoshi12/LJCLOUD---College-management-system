@@ -1,0 +1,55 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="griditemwidth">128dp</dimen>
+    <dimen name="griditemheight">48dp</dimen>
+    <dimen name="login_layouttop">140dp</dimen>
+    <dimen name="login_layoutleft">15dp</dimen>
+    <dimen name="griditem_text_size">15dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="dimen_common_spacing_01">1dp</dimen>
+    <dimen name="dimen_common_spacing_02">2dp</dimen>
+    <dimen name="dimen_common_spacing_03">3dp</dimen>
+    <dimen name="dimen_common_spacing_04">4dp</dimen>
+    <dimen name="dimen_common_spacing_05">5dp</dimen>
+    <dimen name="dimen_common_spacing_07">7dp</dimen>
+    <dimen name="dimen_common_spacing_10">10dp</dimen>
+    <dimen name="dimen_common_spacing_15">15dp</dimen>
+    <dimen name="dimen_common_spacing_20">20dp</dimen>
+    <dimen name="dimen_common_spacing_25">25dp</dimen>
+    <dimen name="dimen_common_spacing_30">30dp</dimen>
+    <dimen name="dimen_common_spacing_35">35dp</dimen>
+    <dimen name="dimen_common_spacing_40">40dp</dimen>
+    <dimen name="dimen_common_spacing_45">45dp</dimen>
+    <dimen name="dimen_common_spacing_50">50dp</dimen>
+    <dimen name="dimen_common_spacing_56">56dp</dimen>
+    <dimen name="dimen_common_spacing_60">60dp</dimen>
+    <dimen name="dimen_common_spacing_70">70dp</dimen>
+    <dimen name="dimen_common_spacing_80">80dp</dimen>
+    <dimen name="dimen_common_spacing_90">90dp</dimen>
+    <dimen name="dimen_common_spacing_100">100dp</dimen>
+    <dimen name="dimen_common_spacing_150">150dp</dimen>
+    <dimen name="dimen_common_spacing_250">250dp</dimen>
+
+
+    <dimen name="dimen_font_01">1sp</dimen>
+    <dimen name="dimen_font_02">2sp</dimen>
+    <dimen name="dimen_font_03">3sp</dimen>
+    <dimen name="dimen_font_04">4sp</dimen>
+    <dimen name="dimen_font_05">5sp</dimen>
+    <dimen name="dimen_font_06">6sp</dimen>
+    <dimen name="dimen_font_07">7sp</dimen>
+    <dimen name="dimen_font_08">8sp</dimen>
+    <dimen name="dimen_font_09">9sp</dimen>
+    <dimen name="dimen_font_10">10sp</dimen>
+    <dimen name="dimen_font_11">11sp</dimen>
+    <dimen name="dimen_font_12">12sp</dimen>
+    <dimen name="dimen_font_13">13sp</dimen>
+    <dimen name="dimen_font_14">14sp</dimen>
+    <dimen name="dimen_font_20">20sp</dimen>
+    <dimen name="dimen_font_25">25sp</dimen>
+    <dimen name="dimen_font_35">35sp</dimen>
+
+</resources>

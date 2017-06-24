@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<color name="color_blue_dark">#FF0A5BC4</color>
+    <color name="color_white">#ecf0f1</color>
+    <color name="color_silver">#bdc3c7</color>
+    <color name="color_blue_light">#2980b9</color>
+    <color name="color_blue_light_light">#3498db</color>
+    <color name="color_green_light">#FF00A600</color>
+    <color name="color_orange">#FFDC572E</color>
+    <color name="color_green_dark">#16a085</color>
+    <color name="color_pink_dark">#FFBF1E4B</color>
+    <color name="color_skyblue_dark">#FF008299</color>
+    <color name="color_green_light2">#ff77b900</color>
+    <color name="color_yellow">#FFF3B200</color>
+    <color name="color_Blue_light">#FF00A0B1</color>
+    <color name="Primary">#2980b9</color>
+    <color name="colorPrimaryDark">#2980b9</color>
+    <color name="textColorPrimary">#2980b9</color>
+    <color name="windowBackground">#2980b9</color>
+    <color name="navigationBarColor">#2980b9</color>
+    <color name="colorAccent">#2980b9</color>
+
+    <color name="colorFAB1">#2196F3</color>
+    <color name="colorFAB2">#E040FB</color>
+</resources>
+
+

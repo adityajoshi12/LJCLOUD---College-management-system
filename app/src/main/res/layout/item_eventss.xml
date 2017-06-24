@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_common_spacing_10"
+    android:orientation="horizontal">
+
+    <com.example.rajpatel.ljietcloud.CustomImageViewCircularShape
+        android:id="@+id/imgCover"
+        android:layout_width="@dimen/dimen_common_spacing_80"
+        android:layout_height="@dimen/dimen_common_spacing_80"
+        android:scaleType="fitXY"
+        android:src="@drawable/noticeboard" />
+
+    <TextView
+        android:id="@+id/updates"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="@dimen/dimen_common_spacing_20"
+        android:layout_marginLeft="@dimen/dimen_common_spacing_10"
+        android:text="hello"
+        android:textStyle="bold"/>
+</LinearLayout>

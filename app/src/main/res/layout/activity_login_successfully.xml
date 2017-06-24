@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@color/color_white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_common_spacing_10"
+            android:orientation="horizontal">
+
+
+            <com.example.rajpatel.ljietcloud.CustomImageViewCircularShape
+                android:id="@+id/stud_profile"
+                android:layout_width="@dimen/dimen_common_spacing_80"
+                android:layout_height="@dimen/dimen_common_spacing_80"
+                android:scaleType="fitXY"
+                android:src="@drawable/noticeboard" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/stud_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_common_spacing_03"
+                    android:layout_marginLeft="@dimen/dimen_common_spacing_07"
+                    android:text="Himangi Patel"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/stud_enrollment"
+                    android:layout_width="wrap_content"
+                    android:padding="@dimen/dimen_common_spacing_03"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_common_spacing_07"
+                    android:text="120320107057"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/stud_branch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_common_spacing_03"
+                    android:layout_marginLeft="@dimen/dimen_common_spacing_07"
+                    android:text="Computer Engineering"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Listview to display slider menu -->
+        <ListView
+            android:id="@+id/list_slidermenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+
+            android:choiceMode="singleChoice"
+            android:listSelector="@drawable/ripple" />
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

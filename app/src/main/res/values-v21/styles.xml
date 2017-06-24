@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="popupview">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+</resources>

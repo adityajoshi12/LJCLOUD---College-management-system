@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_common_spacing_10"
+            android:text="Lok Jagruti Kendra (LJK) is a charitable Trust and registered society. It was founded in the year 1980 by eminent academicians and professionals and distinguished personalities from across the society.\n \n \nL.J. stands for ‘Lok’ (people) and ‘Jagruti’ (awareness). L.J firmly believes in bringing about overall development of people. L.J. aims to develop its students into complete citizens who not only have the subject knowledge but also have the empathy towards various social, cultural, environmental and other such issues affecting our society. L.J. philosophy is firmly grounded in values such as honesty, transparency, camaraderie, solidarity and unity."
+            android:textColor="@android:color/black" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_common_spacing_10"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/text_aboutus_ourses"
+                android:text="About Us :"
+                android:textSize="@dimen/dimen_common_spacing_25" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_common_spacing_03"
+                    android:padding="@dimen/dimen_common_spacing_07">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dimen_common_spacing_03"
+                        android:src="@drawable/addresslj"
+                        android:textColor="@color/color_white" />
+
+
+                    <TextView
+                        style="@style/text_aboutus_ourses"
+                        android:gravity="left"
+                        android:text=": L.J. Campus , Between Sarkhej Circle , Kataria   Motors ,S.G. Road ,Ahmedabad - 382210" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_common_spacing_07">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dimen_common_spacing_03"
+                        android:src="@drawable/emailid"
+                        android:textColor="@color/color_white" />
+
+                    <TextView
+                     style="@style/text_aboutus_ourses"
+                        android:gravity="center"
+                        android:text=": ljiet@ljinstitutes.org" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dimen_common_spacing_07">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dimen_common_spacing_03"
+                        android:src="@drawable/callus" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/text_aboutus_ourses"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text=": (079)-26890382"
+                           />
+
+                        <TextView
+                        style="@style/text_aboutus_ourses"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text=": (079)-26890383"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

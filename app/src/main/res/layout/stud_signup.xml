@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_blue_light"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/dimen_common_spacing_15"
+        android:background="@color/color_silver"
+        android:padding="@dimen/dimen_common_spacing_10" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/Register_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_common_spacing_15"
+                android:text="Register"
+                android:textSize="@dimen/dimen_font_25"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:gravity="center"
+                android:textColor="@color/color_blue_light"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_common_spacing_10"
+                android:focusableInTouchMode="true"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <EditText
+                    android:id="@+id/et_enrollment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:background="@drawable/bachgroud_text"
+                    android:padding="@dimen/dimen_common_spacing_07"
+                    android:layout_margin="@dimen/dimen_common_spacing_10"
+                    android:hint="Enrollment Number"
+                    android:inputType="number" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_common_spacing_10"
+                android:focusableInTouchMode="true"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:background="@drawable/bachgroud_text"
+                    android:padding="@dimen/dimen_common_spacing_07"
+                    android:layout_margin="@dimen/dimen_common_spacing_10"
+                    android:hint="Password"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_common_spacing_10"
+                android:focusableInTouchMode="true"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+                <EditText
+                    android:id="@+id/et_confpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:background="@drawable/bachgroud_text"
+                    android:padding="@dimen/dimen_common_spacing_07"
+                    android:layout_margin="@dimen/dimen_common_spacing_10"
+                    android:hint="Conform Password"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                android:id="@+id/signupbtn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Sign_Up"
+                android:layout_marginTop="@dimen/dimen_common_spacing_25"
+                android:textColor="@android:color/white"
+                custom:pb_colorComplete="?attr/colorPrimary"
+                custom:pb_colorNormal="?attr/colorPrimary"
+                custom:pb_colorPressed="?attr/colorPrimaryDark"
+                custom:pb_colorProgress="?attr/colorPrimary"
+                custom:pb_textComplete="@string/Success"
+                custom:pb_textProgress="@string/Loading" />
+
+
+            <TextView
+                android:id="@+id/member_login_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="@string/Login"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/register_imview" />
+
+
+
+</RelativeLayout>
